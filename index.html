@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf6ec">
+  <meta name="description" content="Утро. — учебный проект районной кофейни. Кофе, свежая выпечка и завтраки весь день.">
+  <title>Утро. — районная кофейня</title>
+  <link rel="icon" href="assets/sun.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="menu.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="wrap top">
+  <a class="brand" href="#main" aria-label="Утро. На главную"><img src="assets/sun.svg" alt="" width="38" height="38">Утро.</a>
+  <nav aria-label="Основная навигация"><a href="#menu">Меню</a><a href="#about">О нас</a><a href="#visit">Контакты</a></nav>
+  <a class="visit-link" href="#visit">Как нас найти <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="title">
+    <div class="intro">
+      <p class="kicker"><i></i> Районная кофейня</p>
+      <h1 id="title">Кофе, булка<br>и <em>доброе утро.</em></h1>
+      <p class="lead">Варим кофе, печём с рассвета и готовим завтраки весь день. Заходите по пути или оставайтесь подольше.</p>
+      <a class="button" href="#menu">Смотреть меню <span aria-hidden="true">↓</span></a>
+    </div>
+    <figure><img class="hero-photo" src="assets/coffee.jpg" alt="Капучино с рисунком из молочной пены и круассан на залитом солнцем столе">
+      <figcaption><span>За нашим столиком</span><span>Утро. / Санкт-Петербург</span></figcaption>
+    </figure>
+  </section>
+  <div class="ribbon"><div class="wrap"><span>Кофе своей обжарки</span><b aria-hidden="true">✳</b><span>Свежая выпечка</span><b aria-hidden="true">✳</b><span>Завтраки весь день</span></div></div>
+  <section class="wrap menu section" id="menu" aria-labelledby="menu-title">
+    <p class="kicker"><i></i> Из нашей кухни</p>
+    <div class="menu-head"><h2 id="menu-title">Наше меню<span>.</span></h2>
+    <div class="filters" hidden aria-label="Категории меню" role="group"><button data-show="coffee" aria-pressed="true">Кофе</button><button data-show="pastry" aria-pressed="false">Выпечка</button><button data-show="breakfast" aria-pressed="false">Завтраки</button></div></div>
+    <div id="coffee" class="category"><h3>Кофе</h3><dl>
+    <div><dt>Эспрессо</dt><dd>180 ₽</dd><dd>Плотный, с нотами тёмного шоколада · 35 мл</dd></div>
+    <div><dt>Капучино</dt><dd>260 ₽</dd><dd>Двойной эспрессо и нежная молочная пена · 200 мл</dd></div>
+    <div><dt>Фильтр дня</dt><dd>220 ₽</dd><dd>Зерно недели, заваренное утром · 250 мл</dd></div>
+    <div><dt>Флэт уайт</dt><dd>290 ₽</dd><dd>Яркий эспрессо с тонким слоем пенки · 180 мл</dd></div></dl></div>
+    <div id="pastry" class="category"><h3>Выпечка</h3><dl>
+    <div><dt>Круассан</dt><dd>240 ₽</dd><dd>Хрустящие слои теста на сливочном масле</dd></div>
+    <div><dt>Улитка с корицей</dt><dd>230 ₽</dd><dd>Мягкая сдоба с корицей и тростниковым сахаром</dd></div></dl></div>
+    <div id="breakfast" class="category"><h3>Завтраки</h3><dl>
+    <div><dt>Скрембл на тосте</dt><dd>420 ₽</dd><dd>Нежные яйца, хлеб на закваске и зелёное масло</dd></div>
+    <div><dt>Сырники</dt><dd>390 ₽</dd><dd>С вишнёвым вареньем и густой сметаной</dd></div></dl></div>
+  </section>
+  <div class="details"><div class="wrap detail-grid">
+  <section id="about"><p class="kicker"><i></i> О нас</p><h2>Место у окна<span>.</span></h2><p>Утром на подоконнике остывают булочки, а у стойки уже мелют зерно для первого фильтра. Мы задумали «Утро.» как кофейню по соседству, где можно начать день за большим общим столом.</p></section>
+  <section id="visit"><p class="kicker"><i></i> В гости</p><h2>Как нас найти<span>.</span></h2><address>Санкт-Петербург, переулок Зёрен, 8</address><p>Ежедневно с 8:00 до 20:00</p><small>Кофейня и адрес вымышлены для портфолио.</small></section></div></div>
+</main>
+<footer class="wrap"><a class="brand" href="#main">Утро.</a><span>Учебный проект · 2026</span><a href="#main">Наверх ↑</a></footer>
+</body></html>
